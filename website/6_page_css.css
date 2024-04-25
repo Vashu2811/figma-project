@@ -1,0 +1,46 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+body{
+    margin-top:100px ;
+    margin-bottom: 100px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+  .footer {
+    border-color: #110018;
+    border-top-right-radius:40px;
+	  border-top-left-radius:40px;
+    background-color:#110018;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .footer-icons {
+    margin-bottom: 10px;
+  }
+  .footer-icons img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+  }
+  .footer-links {
+    margin-bottom: 10px;
+  }
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  .footer-copy {
+    font-size: 14px;
+  }
+  .footer-love {
+    color: #e25555; /* heart color */
+  }

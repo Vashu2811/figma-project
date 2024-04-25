@@ -1,0 +1,50 @@
+/* styles.css */
+*,*::after,*::before{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+body {
+
+    background: linear-gradient(to right, #E6DFFF, #FFFFFF);
+    font-family: Arial, sans-serif;
+    margin-left:50px;
+    padding: 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+#pix{
+    padding-right: 20px;
+
+}
+.open{
+    
+    text-align: right;
+    background: linear-gradient(to right,#AD00FF, #DC92FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border: linear-gradient(to right,#AD00FF, #DC92FF);
+    font-size: 18px;
+}
+
+.left{
+    width: 50%;
+    padding: 20px;
+    text-align:right;
+    padding: 0px;
+}
+
+.right{
+    width:50%;
+    align-items: right;
+    text-align: left;
+    font-weight: bold;
+}
