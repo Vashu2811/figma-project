@@ -1,0 +1,350 @@
+/* styles.css */
+*,*::after,*::before{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+/* 1 page css........................................................................1 page css */
+body {
+    background-color: #f7f6f9; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    margin-top: 25px;
+    
+    
+}
+.linear-text-gradient_1 {
+    background: linear-gradient(to right, #AD00FF, #DC92FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+}
+.linear-text-gradient_1{
+    text-align: center;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
+#space{
+    
+    margin-top: 10px;
+
+}
+
+/* Smaller text (white) */
+#p1{
+    color: #090000; 
+    font-size: 26px; 
+    text-align: center;
+    margin:0;
+}
+#p2{
+    color: #090000; 
+    font-size: 26px; 
+    text-align: center;
+    margin:0;
+}
+#p3{
+    color: #090000; 
+    font-size: 26px; 
+    text-align: center;
+    margin:0;
+}
+/* Button (darker purple with white text) */
+.button {
+    background-color: #310048; 
+    color: #ffffff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Center the button */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+/* 2 page css........................................................................2 page css */
+
+body {
+
+    background: linear-gradient(to right, #E6DFFF, #FFFFFF);
+    font-family: Arial, sans-serif;
+    margin-left:50px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+.linear-text-gradient_2 {
+    background: linear-gradient(to right,#AD00FF, #DC92FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+     font-size: 50px;
+    font-family: Arial, sans-serif;
+ }
+
+.container_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 60px;
+}
+#pix{
+    padding-right: 20px;
+
+}
+.open_1{
+    
+    text-align: right;
+    background: linear-gradient(to right,#AD00FF, #DC92FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border: linear-gradient(to right,#AD00FF, #DC92FF);
+    font-size: 18px;
+    width: 190px;
+}
+.open_2{
+    
+    text-align: right;
+    background: linear-gradient(to right,#AD00FF, #DC92FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border: linear-gradient(to right,#AD00FF, #DC92FF);
+    font-size: 18px;
+    width: 190px;
+}
+.open_3{
+    
+    text-align: right;
+    background: linear-gradient(to right,#AD00FF, #DC92FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border: linear-gradient(to right,#AD00FF, #DC92FF);
+    font-size: 18px;
+    width: 140px;
+}
+
+
+.left_2{
+    width: 50%;
+    padding: 20px;
+    text-align:right;
+    padding: 0px;
+    align-items: right;
+}
+
+.right_2{
+    width:50%;
+    display: inline-block;
+    align-items: left;
+    text-align: left;
+    font-weight: bold;
+
+}
+/* 3 page css........................................................................3 page css */
+.background{
+    background-color: #110018; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linear-text-gradient_3 {
+    background: linear-gradient(to right, #FFEBA5, #DC92FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+}
+
+.container_3{
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    font-size: 18px;
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+img{
+    margin-top: 20px;
+}
+/* 4 page css........................................................................4 page css */
+.bg_4{
+    background: linear-gradient(to right, #E6DFFF, #FFFFFF);
+    font-family: Arial, sans-serif;
+    margin-left:50px;
+    padding: 60px;
+}
+.linear-text-gradient_4 {
+    background: linear-gradient(to right,#F1AE00, #AD00FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+     font-size: 50px;
+    font-family: Arial, sans-serif;
+ }
+.container_4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+.left_4{
+    width: 50%;
+    padding: 20px;
+    text-align:right;
+    padding: 0px;
+}
+
+.right_4{
+    width:50%;
+    align-items: right;
+}
+/* 5 page css........................................................................5 page css */
+.bg_5{
+    background: linear-gradient(to right, #E6DFFF, #FFFFFF);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    margin-top: 25px;
+}
+
+.linear-text-gradient_5 {
+    background: linear-gradient(to right,#DC92FF, #AD00FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+}
+.linear-text-gradient_5{
+    text-align: center;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
+#space{
+    
+    margin-top: 10px;
+
+}
+
+/* Smaller text (white) */
+.p_5{
+    color: #090000; 
+    font-size: 26px; 
+    text-align: center;
+    margin:0;
+}
+/* Button (darker purple with white text) */
+.button_5 {
+    background-color: #F1AE00; 
+    color: #ffffff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Center the button */
+.button-container_5 {
+    text-align: center;
+    margin-top: 20px;
+}
+/* 6 page css........................................................................6 page css */
+.body{
+    margin-top: 20px;
+}
+.footer {
+    border-color: #110018;
+    border-top-right-radius:40px;
+	  border-top-left-radius:40px;
+    background-color:#110018;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .footer-icons {
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 10PX;
+    
+  }
+  .footer-icons img {
+    width: 28px;
+    height: 28px;
+    margin:  10px;
+  }
+  .footer-links {
+    margin-bottom: 10px;
+  }
+  .footer-links a {
+    padding-top: 25px;
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+    margin:  15px;
+    padding-bottom: 5px;
+  }
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  .footer-copy {
+    padding-top: 25px;
+    font-size: 28px;
+    padding-bottom:10px ;
+  }
+  .footer-love{
+    padding-top: 25px;
+    font-size: 28px;
+    padding-bottom: 90px;
+  }
+  
+@media only screen and (max-width: 390px){
+    p {
+        color: #090000;
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+    }
+    .linear-text-gradient {
+        background: linear-gradient(to right, #AD00FF, #DC92FF);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: 35px;
+        font-family: Arial, sans-serif;
+    }
+}
+    
